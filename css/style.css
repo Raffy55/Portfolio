@@ -212,22 +212,22 @@ body{
 
 .port-btn {
     text-decoration: none;
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(148, 175, 240));
+    background-color: #4E54C8;
     width: 250px;
     height: 100px;
     border-radius: 20px;
-    color: black;
+    color: white;
     transition: 0.3s;
 }
 
 .port-btn:hover {
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(9, 9, 9));
+    background-color: #686eda;
     color: white;
 }
 
 nav {
     height: 50px;
-    background-color: rgb(112, 112, 112);
+    background-color: #4E54C8;
 }
 nav a {
     text-decoration: none;
@@ -238,7 +238,7 @@ nav a {
 }
 
 nav a:hover{
-    color: #8f94fb;
+    color: black;
 }
 
 .portfoliodiv {
@@ -252,7 +252,7 @@ nav a:hover{
 
 @media (max-width: 600px) {
     .portfoliodiv {
-        height: 1500px;
+        height: 1800px;
     }
 
     .porthead {
@@ -261,11 +261,12 @@ nav a:hover{
 }
 
 .card {
+    height: 200px;
     transition: 0.3s;
 }
 
 .card:hover {
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(9, 9, 9));
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(78, 84, 200));
     color: white;
 }
 
@@ -280,16 +281,16 @@ nav a:hover{
 
 .con-btn {
     text-decoration: none;
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), #698B9A);
+    background-color: #4E54C8;
     width: 250px;
     height: 100px;
     border-radius: 20px;
-    color: black;
+    color: white;
     transition: 0.3s;
 }
 
 .con-btn:hover {
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(9, 9, 9));
+    background-color: #686eda;
     color: white;
 }
 
@@ -308,7 +309,11 @@ nav a:hover{
     color: #4e54c8;
 }
 
+/* .msg-box {
+    background-color: rgba(255, 255, 255, 0.8);
+} */
+
 footer {
     height: 50px;
-    background-color: rgb(112, 112, 112);
+    background-color: #4E54C8;
 }
