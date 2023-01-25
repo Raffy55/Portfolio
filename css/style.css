@@ -152,6 +152,9 @@ body{
     animation-duration: 10s;
 }
 
+i {
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+}
 
 
 @keyframes animate {
