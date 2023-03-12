@@ -209,6 +209,12 @@ i {
     }
 }
 
+@media (max-width: 575px) {
+    .aboutmediv {
+        height: 1900px;
+    }
+}
+
 .raffypic {
     width: 75%;
 }
